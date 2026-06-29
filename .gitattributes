@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Only include what's needed in the Asset Library ZIP
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
+/bin       !export-ignore
+/bin/**    !export-ignore
+/zgt.gdextension !export-ignore
+/README.md !export-ignore
+/LICENSE   !export-ignore
+/icon.png  !export-ignore
