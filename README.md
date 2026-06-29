@@ -86,5 +86,3 @@ Click **Restart** on the panel to apply.
 | **Editor crashes on startup with a Vulkan error** | Your GPU's Vulkan driver, **not ZGT** — install it (e.g. `vulkan-intel`) or launch with `--rendering-driver opengl3` |
 | **Boxes/icons look broken** | Install a Nerd Font, or set `zgt/terminal/font_path` |
 | **No color** | `TERM` not `xterm-256color` |
-
-Source code: https://github.com/zednaked/zgt
