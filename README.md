@@ -65,18 +65,6 @@ SHELL=/usr/bin/fish godot --editor
 - **Linux** (x86_64) — uses `forkpty` from `<util-linux>`
 - **No X11/Wayland dependencies** — works on both, no `--display-driver` flag needed
 
-## Build from source
-
-You need C++17, `godot-cpp` 4.3, and SCons:
-
-```bash
-./setup.sh                              # clone godot-cpp
-scons platform=linux                    # debug build
-scons platform=linux target=template_release  # release build
-```
-
-Output goes to `bin/`.
-
 ## Troubleshooting
 
 | Symptom | Likely cause |
